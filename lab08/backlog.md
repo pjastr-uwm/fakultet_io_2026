@@ -8,7 +8,7 @@ Cel: przygotowanie środowiska, wybór tematu i struktury projektu.
 | 1  | B-001 | Zadanie | Krytyczny | 2  | Wybór tematu projektu i uzgodnienie z prowadzącym |
 | 2  | B-002 | Zadanie | Wysoki    | 1  | Założenie repozytorium GitHub (README, .gitignore, licencja) |
 | 3  | B-003 | Zadanie | Wysoki    | 2  | Konfiguracja środowiska (venv, requirements.txt: transformers, torch, scikit-learn, pandas, spacy) |
-| 4  | B-004 | Zadanie | Średni    | 1  | Ustalenie struktury katalogów: `src/`, `notebooks/`, `data/`, `models/`, `docs/` (min. 3 moduły .py) |
+| 4  | B-004 | Zadanie | Średni    | 1  | Ustalenie struktury katalogów: `src/`, `notebooks/`, `data/`, `models/`, `docs/` |
 
 ---
 
