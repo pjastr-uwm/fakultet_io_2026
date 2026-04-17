@@ -32,8 +32,8 @@ Cel: implementacja i ewaluacja podejścia TF-IDF + klasyfikator ML.
 
 | #  | ID    | Typ        | Priorytet  | SP | Zadanie                                        |
 |----|-------|------------|------------|----|-------------------------------------------------|
-| 10 | B-010 | User Story | Krytyczny | 3  | Ekstrakcja cech — moduł `feature_extraction.py`: TfidfVectorizer (max_features, ngram_range) |
-| 11 | B-011 | User Story | Krytyczny | 5  | Trening modelu klasycznego — moduł `classical_model.py`: Pipeline sklearn (TF-IDF → SVM/NB/LogReg), GridSearchCV |
+| 10 | B-010 | User Story | Krytyczny | 3  | Ekstrakcja cech: TfidfVectorizer (max_features, ngram_range) |
+| 11 | B-011 | User Story | Krytyczny | 5  | Trening modelu klasycznego: Pipeline sklearn (TF-IDF → SVM/NB/LogReg), GridSearchCV |
 | 12 | B-012 | User Story | Wysoki    | 3  | Ewaluacja modelu klasycznego: accuracy, precision, recall, F1, confusion matrix, zapis wyników do JSON |
 | 13 | B-013 | Zadanie    | Średni    | 2  | Przegląd zgodności kodu z PEP 8 (flake8/pylint, docstrings, ewentualne type hinting konsekwentnie) |
 
@@ -46,7 +46,7 @@ Cel: fine-tuning HerBERT/polish-roberta i ewaluacja.
 | #  | ID    | Typ        | Priorytet  | SP | Zadanie                                        |
 |----|-------|------------|------------|----|-------------------------------------------------|
 | 14 | B-014 | User Story | Wysoki    | 3  | Przygotowanie danych dla Transformera: AutoTokenizer, Dataset class, DataLoader (padding/truncation) |
-| 15 | B-015 | User Story | Krytyczny | 8  | Fine-tuning modelu Transformer — moduł `transformer_model.py`: HerBERT, HF Trainer, hiperparametry (lr, epochs, batch_size, warmup) |
+| 15 | B-015 | User Story | Krytyczny | 8  | Fine-tuning modelu Transformer: HerBERT, HF Trainer, hiperparametry (lr, epochs, batch_size, warmup) |
 | 16 | B-016 | User Story | Wysoki    | 3  | Ewaluacja modelu Transformer: te same metryki co model klasyczny, zapis do JSON |
 | 17 | B-017 | Zadanie    | Średni    | 2  | Obsługa GPU / optymalizacja: CUDA, gradient accumulation, fp16, checkpointing (opcjonalnie) |
 
