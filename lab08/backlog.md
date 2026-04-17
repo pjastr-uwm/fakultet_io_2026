@@ -48,7 +48,7 @@ Cel: fine-tuning HerBERT/polish-roberta i ewaluacja.
 | 14 | B-014 | User Story | Wysoki    | 3  | Przygotowanie danych dla Transformera: AutoTokenizer, Dataset class, DataLoader (padding/truncation) |
 | 15 | B-015 | User Story | Krytyczny | 8  | Fine-tuning modelu Transformer — moduł `transformer_model.py`: HerBERT, HF Trainer, hiperparametry (lr, epochs, batch_size, warmup) |
 | 16 | B-016 | User Story | Wysoki    | 3  | Ewaluacja modelu Transformer: te same metryki co model klasyczny, zapis do JSON |
-| 17 | B-017 | Zadanie    | Średni    | 2  | Obsługa GPU / optymalizacja: CUDA, gradient accumulation, fp16, checkpointing |
+| 17 | B-017 | Zadanie    | Średni    | 2  | Obsługa GPU / optymalizacja: CUDA, gradient accumulation, fp16, checkpointing (opcjonalnie) |
 
 ---
 
@@ -73,6 +73,5 @@ Cel: raport techniczny, prezentacja na obronę, finalne oddanie na GitHub.
 | 21 | B-021 | User Story | Krytyczny | 5  | Raport techniczny — `docs/raport.md`: problem, dane, metody, wyniki, wnioski (min. 5–8 stron) |
 | 22 | B-022 | Zadanie    | Wysoki    | 3  | Komentarze w kodzie i notebookach: docstringi modułów i funkcji, komórki markdown |
 | 23 | B-023 | Zadanie    | Wysoki    | 2  | Aktualizacja README.md: opis, instalacja, uruchomienie, struktura repo, wyniki |
-| 24 | B-024 | User Story | Krytyczny | 3  | Przygotowanie prezentacji na obronę (10–15 min): problem → dane → metody → wyniki → wnioski → demo |
-| 25 | B-025 | Zadanie    | Wysoki    | 2  | Finalny przegląd kodu, requirements.txt, tag v1.0, push — **DEADLINE 25.05.2026** |
+| 24 | B-025 | Zadanie    | Wysoki    | 2  | Finalny przegląd kodu, requirements.txt, tag v1.0, push — **DEADLINE 25.05.2026** |
 
