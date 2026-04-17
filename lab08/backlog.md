@@ -70,7 +70,7 @@ Cel: raport techniczny, prezentacja na obronę, finalne oddanie na GitHub.
 
 | #  | ID    | Typ        | Priorytet  | SP | Zadanie                                        |
 |----|-------|------------|------------|----|-------------------------------------------------|
-| 21 | B-021 | User Story | Krytyczny | 5  | Raport techniczny — `docs/raport.md`: problem, dane, metody, wyniki, wnioski |
+| 21 | B-021 | User Story | Krytyczny | 5  | Raport techniczny: problem, dane, metody, wyniki, wnioski  (opcjonalinie) |
 | 22 | B-022 | Zadanie    | Wysoki    | 3  | Komentarze w kodzie i notebookach: docstringi modułów i funkcji, komórki markdown |
 | 23 | B-023 | Zadanie    | Wysoki    | 2  | Aktualizacja README.md: opis, instalacja, uruchomienie, struktura repo, wyniki |
 | 24 | B-025 | Zadanie    | Wysoki    | 2  | Finalny przegląd kodu, requirements.txt, tag v1.0, push — **DEADLINE 25.05.2026** |
